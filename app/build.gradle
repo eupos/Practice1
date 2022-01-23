@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
 
     defaultConfig {
         applicationId "ru.geekbrains.eupos.android1.practice1"
-        minSdk 25
-        targetSdk 32
+        minSdk 24
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
