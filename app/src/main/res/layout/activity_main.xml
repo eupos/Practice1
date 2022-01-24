@@ -63,5 +63,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:checked="false"
+        android:text="Выключатель"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:showText="true"/>
+
+
+
 
 </LinearLayout>
