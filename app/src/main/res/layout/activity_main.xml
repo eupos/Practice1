@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textColor="@color/teal_200"
-        android:textSize="50sp"
+        android:textSize="20sp"
         android:layout_gravity="center"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
         android:layout_width="353dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:hint="Введите имя"
         android:minHeight="48dp"
         android:ems="10"
@@ -44,15 +44,24 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selection"/>
 
+
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="300dp"
         android:onClick="onClick"
         android:selectedWeekBackgroundColor="#ff0000"
         android:weekNumberColor="#0000ff"
         android:weekSeparatorLineColor="#00ff00" />
 
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Включено"
+        android:textOff="Выключено"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </LinearLayout>
