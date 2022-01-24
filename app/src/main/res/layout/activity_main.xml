@@ -76,7 +76,14 @@
         android:textOn="ON"
         app:showText="true"/>
 
-
+    <Button
+        android:id="@+id/button"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Перейти" />
 
 
 </LinearLayout>
