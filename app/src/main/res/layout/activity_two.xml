@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:paddingTop="50dp"
     tools:context=".TwoActivity">
 
     <TextView
@@ -29,6 +30,7 @@
         android:id="@+id/textAddres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:text="Адрес"
         android:textSize="26sp"/>
 
@@ -45,6 +47,7 @@
         android:id="@+id/textFname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:text="Ф.И.О."
         android:textSize="26sp"/>
 
@@ -55,5 +58,62 @@
         android:ems="10"
         android:inputType="textPersonName" />
 
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Электронная почта"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/EditEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="textStart"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Телефон"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/EditPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="textStart"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Пароль"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/EditPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="textStart"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#92D7DD"
+        android:text="OK"
+        android:textColor="#0F1010"
+        android:textSize="40sp" />
 
 </LinearLayout>
